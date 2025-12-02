@@ -6,8 +6,10 @@ function SimpleFunctionalComponents(props) {
             <h1>Vite + React</h1>
             <h2>Student Info:</h2>
             <p>ID: {props.student.id}</p>
-            <p>Teacher ID: {props.student.id2}</p>
             <p>Name: {props.student.name}</p>
+            <h2>Teacher Info:</h2>
+            <p>Teacher ID: {props.teacher.id2}</p>
+            <p>Name: {props.teacher.name2}</p>
         </div>
     );
 }
